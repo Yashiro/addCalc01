@@ -63,7 +63,7 @@
     // 5. 点击计算完成之后键盘消失的第二种方法
     // self.view表示的是当前控制器所管理的那个view(每个控制器都会管理一个view)
     // 此时让键盘消失的思路就是: 让控制器所管理的view停止编辑，凡是在这个view中的子控件事件响应的键盘都会消失
-    [self.view endEditing:YES];
+//    [self.view endEditing:YES];
 }
 
 @end
